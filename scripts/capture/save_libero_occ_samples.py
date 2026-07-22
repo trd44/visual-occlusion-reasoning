@@ -11,7 +11,7 @@ from types import ModuleType
 from typing import Any
 
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parents[2]
 BENCHMARK_ROOT = REPO_ROOT / "submodules" / "Libero-Occ" / "benchmark_assets"
 LIBERO_ROOT = REPO_ROOT / "submodules" / "openpi" / "third_party" / "libero"
 SUITES = (

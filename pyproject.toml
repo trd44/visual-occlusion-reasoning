@@ -12,6 +12,7 @@ dependencies = [
     "gym==0.25.2",
     "mujoco==3.2.3",
     "numpy>=1.22.4,<2",
+    "openpi-client",
     "opencv-python>=4.6",
     "pillow>=10",
     "pyyaml>=6",
@@ -21,3 +22,6 @@ dependencies = [
 
 [tool.uv]
 package = false
+
+[tool.uv.sources]
+openpi-client = { path = "submodules/openpi/packages/openpi-client", editable = true }
