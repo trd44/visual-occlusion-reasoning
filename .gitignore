@@ -1,0 +1,17 @@
+.venv/
+.libero/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Generated simulator captures and other experiment artifacts.
+outputs/*
+!outputs/.gitkeep
+
+# Local/editor files.
+.DS_Store
+.idea/
+.vscode/
